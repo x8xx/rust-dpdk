@@ -400,7 +400,7 @@ impl State {
             // "rte_class.h",
             "rte_common.h",
             // "rte_compat.h",
-            // "rte_debug.h",
+            "rte_debug.h",
             // "rte_dev.h",
             // "rte_devargs.h",
             // "rte_eal_interrupts.h",
@@ -727,6 +727,7 @@ impl State {
             .clang_arg("-march=native")
             .clang_arg("-Wno-everything")
             .rustfmt_bindings(true)
+            .derive_default(true)
             .opaque_type("max_align_t")
             .opaque_type("rte_event.*")
             .generate()
