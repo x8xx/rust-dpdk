@@ -1,4 +1,5 @@
 # rust-dpdk
+Forked from [ANLAB-KAIST/rust-dpdk](https://github.com/ANLAB-KAIST/rust-dpdk)
 
 [![Build Status](https://an.kaist.ac.kr/jenkins/buildStatus/icon?job=ANLAB-KAIST%2Frust-dpdk%2Fmain)](https://an.kaist.ac.kr/jenkins/job/ANLAB-KAIST/job/rust-dpdk/job/main/)
 
